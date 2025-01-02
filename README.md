@@ -1,3 +1,54 @@
+### Game Rules:
+
+1. Setup & Categories
+   - Game features multiple categories (Sports, Movies & TV, Places, Fun and Games, People)
+   - Teams start by selecting a category
+   - First game starts with Team 1; subsequent games start with alternate team
+
+2. Basic Gameplay
+   - 60-second timer per game
+   - Warning beeps during final 10 seconds
+   - Active player must:
+     * Look at the word on screen
+     * Memorize it
+     * Put device behind their back
+     * Give verbal clues to their team
+
+3. Guessing Rules
+   - Active player CANNOT:
+     * Say the actual word
+     * Use rhyming words
+     * Say "rhymes with"
+   - Opposing team watches screen to enforce rules
+   - Active team tries to guess word without seeing screen
+
+4. Scoring System
+   - Correct guess: 1 point to guessing team
+   - Pass: 0.5 points to opposing team
+   - Rule violation (saying word/rhyme): 1 point to opposing team
+
+5. Turn Changes
+   - After correct guess:
+     * Add point to guessing team
+     * New word appears
+     * Device passes to other team
+   - After violation:
+     * Add point to opposing team
+     * "Team X's Turn" screen appears
+     * New player must press "Ready" after memorizing word
+   - After pass:
+     * Add 0.5 points to opposing team
+     * New word appears
+     * Same team continues
+
+6. Game End
+   - Timer reaches zero
+   - Final score displayed
+   - "Done" button returns to category selection
+   - Next game starts with opposite team
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
